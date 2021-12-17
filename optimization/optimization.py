@@ -1,4 +1,6 @@
 import torch
+from ..utils import plot
+
 n_iter = 10000
 a = torch.tensor(3.0, requires_grad=True)
 x = 1
